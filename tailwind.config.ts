@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        oswald:['Oswald', 'sans-serif'],
+        anton:['Anton','sans-serif'],
+        outfit:['Outfit', 'sans-serif'],
+      },
+      boxShadow: {
+        'bt': '0px 0px 5px 1px rgba(0, 0,0,0.25)',
       },
     },
   },
